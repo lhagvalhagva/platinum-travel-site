@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ERP Нэвтрүүлэгч компани">
+    <meta name="keywords" content="ERP ,odoo ,programming ,ажил ,программист,erp">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="CSS/mobile.css">
+    <script src="https://kit.fontawesome.com/96d20997c8.js" crossorigin="anonymous"></script>
+    <title>Менежволл ХХК| Бидний тухай</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">MNW</a></h1>
+                <ul>
+                    <li><a  href="index.html">Эхлэл</a> </li>
+                    <li> <a class="current" href="/contact.html">Холбоо барих</a> </li>
+                    <li> <a   href="/about.html">Бидний тухай</a> </li>
+                    <li> <a href="/customer.html">Харилцагчид</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"> <span class="text-primary">Бидэнтэй </span>холбогдох</h1>
+            <p>Доорхи талбаруудыг бөглөж бидэнтэй холбогдоно уу</p>
+        </div>
+        <form action="process.php">
+            <div class="form-group">
+                <label for="name">Овог нэр</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="name">И-мэйл</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="name">Мессеж</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn">Илгээх</button>
+        </form>
+    </section>
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box bg-dark" > 
+                <i class="fa-solid fa-phone fa-3x"></i>
+                <h3>Утасны дугаар</h3>
+                <p>(976) 9999-9999</p></div>
+                <div class="box bg-dark">
+                    <i class="fa-solid fa-location-dot fa-3x" ></i>
+                    <h3>Байршил</h3>
+                    <p> Улаанбаатар хот, Сүхбаатар дүүрэг, 1-р хороо, Нарны зам 62, ЮНЕСКО-гийн гудамж, Юнион Бюлдинг С блок, 803 тоот</p>
+                </div>
+            <div class="box bg-dark" > 
+                <i class="fa-solid fa-envelope fa-3x" ></i>
+                <h3>И-мэйл</h3>
+                <p>info@managewall.mn</p>
+                
+            </div>
+        </div>
+    </section>
+    <div class="clr"></div>
+   <footer id="main-footer">
+    <p>Менежволл компани  &copy  2023 Бүх эрхийн хуулиар хамгаалагдсан</p>
+   </footer>
+</body>
+</html>
